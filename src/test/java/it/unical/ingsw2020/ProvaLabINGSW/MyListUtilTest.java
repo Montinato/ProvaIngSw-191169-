@@ -37,9 +37,6 @@ public class MyListUtilTest
     {
     	
     	int numeri[] = new int [3];
-    	numeri[0] = 2;
-    	numeri[1] = 3;
-    	numeri[2] = 1;
     	
 		assertEquals(Arrays.asList(1,2,3), myList.ordina(numeri, 1, 3));
 		
